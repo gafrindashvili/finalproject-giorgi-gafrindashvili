@@ -56,22 +56,80 @@ div {
   text-align: center;
 }
 
-.oo{
-    display: flex;
-}
-
-
 .q {
-
   width: 400px;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
-  
-  
-
-
-
+  vertical-align: baseline;
+  border-radius: 6%;
+}
+.blogi {
+  width: 350px;
+  height: 200px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: baseline;
 }
 
+.inf {
+  background-color: rgb(211, 206, 199);
+  width: 350px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  vertical-align: baseline;
+}
+.info {
+  font-size: 19px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+  display: inline-block;
+}
+.info2 {
+  margin-left: auto;
+  margin-top: 10px;
+  color: #fc7f00;
+  display: inline-block;
+}
+
+.migweva {
+  width: 500px;
+  height: 300px;
+  margin-left: 60px;
+  display: inline-block;
+  margin-top: 40px;
+}
+.shedegi1 {
+  font-size: 25px;
+}
+.shedegi2 {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 40px;
+  width: 600px;
+}
+footer {
+  background-color: #333333;
+  width: 100%;
+  height: 70px;
+  margin-top: 100px;
+  display: flex;
+}
+
+.inst2 {
+  margin-left: 50px;
+  margin-top: 30px;
+  color: #fc7f00;
+  font-size: 18px;
+}
+.phone {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
