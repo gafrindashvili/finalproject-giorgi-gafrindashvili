@@ -1,3 +1,4 @@
+
 header {
   background-color: #333333;
   width: 100%;
@@ -19,8 +20,12 @@ div {
   display: flex;
   vertical-align: middle;
   font-size: 20px;
+  
 
   padding: 20px;
+}
+a{
+  color: white;
 }
 .pp {
   width: 200px;
@@ -74,6 +79,8 @@ div {
   vertical-align: baseline;
 }
 
+
+
 .inf {
   background-color: rgb(211, 206, 199);
   width: 350px;
@@ -87,6 +94,7 @@ div {
   font-size: 19px;
   margin-left: 10px;
   margin-top: 10px;
+ 
 
   display: inline-block;
 }
