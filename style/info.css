@@ -1,3 +1,5 @@
+
+
 header {
     background-color: #333333;
     width: 100%;
@@ -54,11 +56,13 @@ header {
   .t{
     margin-top: 10px;
     margin-left: 40px;
+    font-family: "ALK Sanet", sans-serif;
   }
 
   .tt{
    text-align: center;
    font-size: 30px;
+   font-family: "ALK Sanet", sans-serif;
      }
 
   footer {
