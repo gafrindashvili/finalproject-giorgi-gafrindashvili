@@ -24,6 +24,7 @@ div {
 
   padding: 20px;
 }
+
 a{
   color: white;
 }
@@ -105,6 +106,9 @@ a{
   display: inline-block;
  
   }
+  .info2:hover{
+    color: #2108b4;
+   }
 
 .migweva {
   width: 500px;
@@ -146,3 +150,4 @@ footer {
   margin-top: 20px;
   margin-left: 50px;
 }
+
