@@ -3,7 +3,7 @@
 header {
     background-color: #333333;
     width: 100%;
-    height: 120px;
+    height: auto;
   
     border: 2px solid white;
   }
@@ -16,13 +16,46 @@ header {
   div {
     display: flex;
   }
+  .fa-bars {
+    display: none !important;
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    margin-left: auto;
+    margin-right: 30px;
+    
+   
+    
+    
+    
+  }
+  
+
+
+  @media screen and (max-width: 1072px) {
+    .fa-bars {
+      display: block !important;
+
+      
+    }
+    
+    .p {
+      display: none!important ;
+    }
+    
+  }
+  
+ 
+  
   
   .p {
     display: flex;
     vertical-align: middle;
     font-size: 20px;
     
-  
+    margin-top: auto;
+    margin-bottom: auto;
     padding: 20px;
   }
   a{
@@ -31,14 +64,17 @@ header {
   .pp {
     width: 200px;
     height: 25px;
-    margin-top: 22px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .ppp {
     width: 50px;
     height: 25px;
-    margin-top: 44px;
+   
     margin-left: 10px;
     background-color: #fc7f00;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   
   .active {
@@ -79,9 +115,118 @@ header {
   color: #fc7f00;
   font-size: 18px;
 }
+.inst1 {
+  margin-left: 50px;
+  margin-top: 30px;
+  color: #fc7f00;
+  font-size: 18px;
+}
+.inst3 {
+  margin-left: 50px;
+  margin-top: 30px;
+  color: #fc7f00;
+  font-size: 18px;
+}
+.inst4 {
+  margin-left: 50px;
+  margin-top: 30px;
+  color: #fc7f00;
+  font-size: 18px;
+}
+
+
+
 .phone {
   width: 40px;
   height: 40px;
   margin-top: 20px;
   margin-left: 50px;
 }
+.phone1 {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.phone2{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.phone3{
+ width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+
+
+@media screen and (max-width: 1288px){
+    
+  footer{
+    width: 100%;
+  }
+  .inst2{
+    display: none;
+  }
+  .inst3{
+    font-size: 15px;
+    margin-left: 5px;
+    
+  }
+  .inst1{
+    font-size: 10px;
+  }
+  .phone1{
+    display: none;
+  }
+
+ 
+  
+
+}
+@media screen and (max-width: 500px){
+  
+  footer{
+    width: 100%;
+  }
+  .inst2{
+    display: none;
+  
+  }
+  
+  
+  
+  .phone{
+    display: none;
+  }
+  .inst4{
+    display: none;
+  }
+  .pp{
+    display: none;
+  }
+  .ppp{
+    display: none;
+  }
+  .phone3{
+    margin-right:20px;
+    margin-left: 10px;
+  }
+ 
+   }
+   @media screen and (max-width:728px){
+    .phone2{
+      display: none;
+    }
+   .inst1{
+    display: none;
+   }
+   .inst4{
+    font-size: 10px;
+    margin-left: 5px;
+   }
+   }
+  

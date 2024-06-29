@@ -1,25 +1,14 @@
 header {
   background-color: #333333;
   
-
-height: 125px;
   width: 100%;
-  
-  
-  
+ 
 
 
+height: auto;
+ 
   border: 2px solid white;
 }
-.res{
-  max-width: 1200px;
-  width: 100%;
-  height: 120px;
-  background-color: #333333;
-  
-  margin: 0 auto;
-}
-
 
 
 
@@ -47,6 +36,7 @@ div {
   .p {
     display: none!important ;
   }
+  
   .pp{
     display: none ;
   }
@@ -89,13 +79,14 @@ a{
 
 .backgraund {
   background-image: url(../img/backgraund.jpeg);
-  width: 100%;
-  height: 100vh;
+  max-width:100%;
+height:800px;
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
   background-size: cover;
 }
+
 
 .qq {
   font-size: 29px;
@@ -114,16 +105,23 @@ a{
   
 
 }
-@media screen and (max-width: 600px){
-  .q{
-    max-width: 100%;
-    display: inline;
 
-  }
+  
+
+
+  
+     
+
+  
+
 .iterier{
-  display: block;
+    display: flex;
+    width: 50px;
 }
-}
+
+
+
+
 
 .blogi {
   width: 350px;
